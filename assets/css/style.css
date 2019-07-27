@@ -310,4 +310,8 @@ textarea {
     body{
         padding-bottom: 20%;
     }
+    .portfolio
+    {
+        text-align: center
+    }
 }
