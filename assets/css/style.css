@@ -177,7 +177,7 @@ textarea {
         display: block;
         background: #ffffff;
         border: #dddddd 1px solid;
-        width: 55%;
+        width: 65%;
         margin: 12% 4%;
 
     }
@@ -189,7 +189,7 @@ textarea {
         color: #cccccc;
         text-align: center;
         font-size: 10pt;
-        padding: 0;
+        padding: 3% 0;
         position: fixed;
         bottom: 0px;
         left: 0px;
