@@ -186,6 +186,9 @@ textarea {
         width: 100%;
         border-top: 8px solid #4aaaa5;
     }
+    .contact>p {
+        margin: 3% 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
