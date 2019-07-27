@@ -188,7 +188,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
     nav {
         all: unset;
         background: #ffffff;
@@ -237,5 +237,77 @@ textarea {
         width: 65%;
         line-height: 2em;
         margin: 0 1%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        all: unset;
+        background: #ffffff;
+        border: #cccccc 1px solid;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .nav {
+        width: 100%;
+        padding: 0;
+    }
+    header {
+        font-family: 'Georgia', Times, "Times New Roman", serif;
+        background: #ffffff;
+        border: #cccccc;
+        padding: 1.5% 5%;
+        color: #4aaaa5;
+    }
+    .name {
+        width: 100%;
+        text-align: center;
+    }
+    .menu {
+        float: right;
+        height: auto;
+        padding: 3% 8%;
+        font-size: large;
+        margin: 0px 4% 0 0;
+    }
+    content {
+        /* all: unset; */
+        display: block;
+        background: #ffffff;
+        border: #dddddd 1px solid;
+        width: 95%;
+        margin: 25% 0 0 2%;
+    }
+    footer {
+        /* all: unset; */
+        display: block;
+        background: #666666;
+        color: #cccccc;
+        text-align: center;
+        font-size: 10pt;
+        padding: 3% 0;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+    }
+    .main1{
+        text-align: center;
+    }
+    img{
+        width:60%;
+    }
+    .main1>p {
+        display: inline;
+        position: absolute;
+        width: 65%;
+        line-height: 2em;
+        margin: 0 1%;
+    }
+    body{
+        padding-bottom: 20%;
     }
 }
