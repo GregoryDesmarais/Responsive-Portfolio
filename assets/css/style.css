@@ -85,7 +85,6 @@ header {
     color: #4aaaa5;
 }
 
-
 /* About me specific */
 
 .main {
@@ -103,7 +102,6 @@ img {
     line-height: 2em;
     margin: 0 1%;
 }
-
 
 /* Contact Page specific */
 
@@ -139,7 +137,6 @@ textarea {
     margin: .5% 0;
 }
 
-
 /* Portfolio section */
 
 .portfolio>img {
@@ -147,7 +144,6 @@ textarea {
 }
 
 @media screen and (max-width: 980px) {
-
     nav {
         all: unset;
         background: #ffffff;
@@ -157,12 +153,10 @@ textarea {
         left: 0;
         width: 100%;
     }
-
-    .nav{
+    .nav {
         width: unset;
         padding: 0 5%;
     }
-
     header {
         font-family: 'Georgia', Times, "Times New Roman", serif;
         background: #ffffff;
@@ -170,8 +164,6 @@ textarea {
         padding: 1.5% 5%;
         color: #4aaaa5;
     }
-    
-
     content {
         /* all: unset; */
         display: block;
@@ -179,9 +171,7 @@ textarea {
         border: #dddddd 1px solid;
         width: 65%;
         margin: 12% 4%;
-
     }
-
     footer {
         /* all: unset; */
         display: block;
@@ -196,6 +186,56 @@ textarea {
         width: 100%;
         border-top: 8px solid #4aaaa5;
     }
+}
 
-  }
-  
+@media screen and (max-width: 980px) {
+    nav {
+        all: unset;
+        background: #ffffff;
+        border: #cccccc 1px solid;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .nav {
+        width: unset;
+        padding: 0 3%;
+    }
+    header {
+        font-family: 'Georgia', Times, "Times New Roman", serif;
+        background: #ffffff;
+        border: #cccccc;
+        padding: 1.5% 5%;
+        color: #4aaaa5;
+    }
+    content {
+        /* all: unset; */
+        display: block;
+        background: #ffffff;
+        border: #dddddd 1px solid;
+        width: 95%;
+        margin: 12% 0 0 2%;
+    }
+    footer {
+        /* all: unset; */
+        display: block;
+        background: #666666;
+        color: #cccccc;
+        text-align: center;
+        font-size: 10pt;
+        padding: 3% 0;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+    }
+    .main1>p {
+        display: inline;
+        position: absolute;
+        width: 65%;
+        line-height: 2em;
+        margin: 0 1%;
+    }
+}
