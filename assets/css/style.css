@@ -85,6 +85,7 @@ header {
     color: #4aaaa5;
 }
 
+
 /* About me specific */
 
 .main {
@@ -102,6 +103,7 @@ img {
     line-height: 2em;
     margin: 0 1%;
 }
+
 
 /* Contact Page specific */
 
@@ -137,10 +139,28 @@ textarea {
     margin: .5% 0;
 }
 
+
 /* Portfolio section */
 
 .portfolio>img {
     margin: 2% 2% 2% 0;
+}
+
+.info {
+    background: #4aaaa5;
+    color: white;
+    float: left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 1%;
+    width: 171px;
+    bottom: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+.thumbnail {
+    position: relative;
 }
 
 @media screen and (max-width: 980px) {
@@ -297,11 +317,11 @@ textarea {
         width: 100%;
         border-top: 8px solid #4aaaa5;
     }
-    .main1{
+    .main1 {
         text-align: center;
     }
-    img{
-        width:60%;
+    img {
+        width: 60%;
     }
     .main1>p {
         display: inline;
@@ -310,11 +330,10 @@ textarea {
         line-height: 2em;
         margin: 0 1%;
     }
-    body{
+    body {
         padding-bottom: 20%;
     }
-    .portfolio
-    {
+    .portfolio {
         text-align: center
     }
 }
