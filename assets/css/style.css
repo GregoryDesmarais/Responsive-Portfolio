@@ -37,7 +37,7 @@ a {
     transition: background-color 1s, color .5s;
 }
 
-a:hover {
+.menu>a:hover {
     background-color: #4aaaa5;
     color: white;
 }
@@ -93,7 +93,7 @@ header {
 }
 
 img {
-    width: 190px;
+    width: 250px;
 }
 
 .main1>p {
@@ -152,8 +152,8 @@ textarea {
     float: left;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
-    padding: 1%;
-    width: 171px;
+    padding: 5%;
+    width: 90%;
     bottom: 10px;
     position: absolute;
     text-align: center;
@@ -161,6 +161,22 @@ textarea {
 
 .thumbnail {
     position: relative;
+}
+
+.left {
+    float: left;
+    margin-left: 3%;
+}
+
+.right {
+    float: right;
+    margin-right: 3%;
+}
+
+.column::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 @media screen and (max-width: 980px) {
